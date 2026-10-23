@@ -1,15 +1,15 @@
 # Installation
-> `npm install --save @types/node`
+> `npm install --save @types/ws`
 
 # Summary
-This package contains type definitions for node (https://nodejs.org/).
+This package contains type definitions for ws (https://github.com/websockets/ws).
 
 # Details
-Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node.
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ws.
 
 ### Additional Details
- * Last updated: Thu, 01 Oct 2026 22:35:12 GMT
- * Dependencies: [undici-types](https://npmjs.com/package/undici-types)
+ * Last updated: Tue, 29 Sep 2026 08:06:07 GMT
+ * Dependencies: [@types/node](https://npmjs.com/package/@types/node)
 
 # Credits
-These definitions were written by [Microsoft TypeScript](https://github.com/Microsoft), [Alberto Schiabel](https://github.com/jkomyno), [Andrew Makarov](https://github.com/r3nya), [Benjamin Toueg](https://github.com/btoueg), [David Junger](https://github.com/touffy), [Mohsen Azimi](https://github.com/mohsen1), [Nikita Galkin](https://github.com/galkin), [Sebastian Silbermann](https://github.com/eps1lon), [Wilco Bakker](https://github.com/WilcoBakker), [Trivikram Kamat](https://github.com/trivikr), [Junxiao Shi](https://github.com/yoursunny), [ExE Boss](https://github.com/ExE-Boss), [Piotr Błażejewicz](https://github.com/peterblazejewicz), [Anna Henningsen](https://github.com/addaleax), [NodeJS Contributors](https://github.com/NodeJS), [Linus Unnebäck](https://github.com/LinusU), [wafuwafu13](https://github.com/wafuwafu13), [Matteo Collina](https://github.com/mcollina), [Dmitry Semigradsky](https://github.com/Semigradsky), [René](https://github.com/Renegade334), and [Yagiz Nizipli](https://github.com/anonrig).
+These definitions were written by [Paul Loyd](https://github.com/loyd), [Margus Lamp](https://github.com/mlamp), [Philippe D'Alva](https://github.com/TitaneBoy), [reduckted](https://github.com/reduckted), [teidesu](https://github.com/teidesu), [Bartosz Wojtkowiak](https://github.com/wojtkowiak), [Kyle Hensel](https://github.com/k-yle), and [Samuel Skeen](https://github.com/cwadrupldijjit).
