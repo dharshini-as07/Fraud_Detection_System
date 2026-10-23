@@ -1,0 +1,5 @@
+{
+  "appId": "com.frauddetection.gpay",
+  "appName": "GPay Shield",
+  "webDir": "dist"
+}

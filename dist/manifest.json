@@ -1,0 +1,18 @@
+{
+  "short_name": "GPay Shield",
+  "name": "Google Pay - FraudShield UPI",
+  "description": "Real-Time Financial Fraud Detection and Alert System",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%231a73e8'/><path d='M50 20 L75 32 L75 55 C75 72 50 82 50 82 C50 82 25 72 25 55 L25 32 Z' fill='white'/><path d='M43 50 L48 55 L58 42' stroke='%231a73e8' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1a73e8",
+  "theme_color": "#1a73e8",
+  "display": "standalone",
+  "orientation": "portrait"
+}

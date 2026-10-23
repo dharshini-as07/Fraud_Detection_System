@@ -1,22 +1,26 @@
 {
-  "name": "fraud-detection-backend",
+  "name": "real-time-financial-fraud-detection-system",
   "version": "1.0.0",
-  "description": "Backend API for Real-Time Financial Fraud Detection and Alert System",
-  "main": "server.js",
-  "type": "commonjs",
+  "description": "Real-Time Financial Fraud Detection and Alert System - A MERN Stack-Based Approach for Detecting Suspicious Financial Transactions",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "seed": "node seeder.js",
-    "show-db": "node showDB.js"
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix frontend run dev"
   },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.1",
-    "socket.io": "^4.7.5"
-  }
+  "keywords": [
+    "mern",
+    "fraud-detection",
+    "fintech",
+    "socketio",
+    "rule-engine",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
 }
