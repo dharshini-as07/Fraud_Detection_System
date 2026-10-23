@@ -1,0 +1,26 @@
+{
+  "name": "real-time-financial-fraud-detection-system",
+  "version": "1.0.0",
+  "description": "Real-Time Financial Fraud Detection and Alert System - A MERN Stack-Based Approach for Detecting Suspicious Financial Transactions",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "mern",
+    "fraud-detection",
+    "fintech",
+    "socketio",
+    "rule-engine",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}
